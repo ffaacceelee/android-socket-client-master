@@ -32,7 +32,7 @@ public class TcpBioClientConnectionActivity extends Activity {
 			@Override
 			public void onFocusChange(View v, boolean hasFocus) {
 				if (hasFocus) {
-					// 此处为得到焦点时的处理内容
+					// 此处为得到焦点时的处理内容...
 					new InputDialog.Builder(TcpBioClientConnectionActivity.this)
 							.setTitle("input config")
 							.setInputDefaultText("")
